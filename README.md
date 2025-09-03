@@ -5,6 +5,9 @@ modified to allow resolution changes. For all copyright information, please refe
 https://github.com/STMicroelectronics/STM32CubeN6/tree/main/Projects/STM32N6570-DK/Applications/VENC/VENC_RTSP_Server
 
 
+For example, in the file venc_h264_config_720p_Frame.h, the width can be adjusted to match a multiple of 64. However, please note that the downsize ratio is limited to a maximum of x7.999.
+
+
 ##  <b>VENC_RTSP_Server Application Description</b>
 
 This application provides an example of the H264 video encoder streamed through Azure RTOS NetX/NetXDuo on STM32N6570-DK board.
