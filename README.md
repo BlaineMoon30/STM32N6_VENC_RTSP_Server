@@ -1,4 +1,10 @@
 
+This project is based on the VENC_RTSP_Server example from STM32CubeN6 (v1.2.0), 
+modified to allow resolution changes. For all copyright information, please refer to the URL below.
+
+https://github.com/STMicroelectronics/STM32CubeN6/tree/main/Projects/STM32N6570-DK/Applications/VENC/VENC_RTSP_Server
+
+
 ##  <b>VENC_RTSP_Server Application Description</b>
 
 This application provides an example of the H264 video encoder streamed through Azure RTOS NetX/NetXDuo on STM32N6570-DK board.
